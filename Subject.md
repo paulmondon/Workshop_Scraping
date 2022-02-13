@@ -24,19 +24,7 @@ Open the console with f12 and find this class it will look like this
 
 ![plot](https://github.com/paulmondon/Workshop_Scraping/blob/main/asides/images/class.png)
 
-## Step 03 - Collect all items
-
-To scrap all the items informations we first need to collect all of them.
-
-All items are stored in a div and have a class in common.
-
-![plot](https://github.com/paulmondon/Workshop_Scraping/blob/main/asides/images/workshop.png)
-
-Open the console with f12 and find this class it will look like this
-
-![plot](https://github.com/paulmondon/Workshop_Scraping/blob/main/asides/images/class.png)
-
-## step 03 - The Availability
+## step 04 - The Availability
 
 Now that we have stored all the articles we want to retrieve the data of these articles.
 
@@ -46,7 +34,7 @@ Find the css selector of the button.
 
 ![plot](https://github.com/paulmondon/Workshop_Scraping/blob/main/asides/images/add.png)
 
-## step 03 - The Name
+## step 05 - The Name
 
 Now we are going to retrieve the name of the article.
 
@@ -54,7 +42,7 @@ Find the css selector of the name.
 
 ![plot](https://github.com/paulmondon/Workshop_Scraping/blob/main/asides/images/nom.png)
 
-## step 03 - The Price
+## step 06 - The Price
 
 Now we are going to retrieve the name of the article.
 
@@ -62,7 +50,7 @@ Find the css selector of the name.
 
 ![plot](https://github.com/paulmondon/Workshop_Scraping/blob/main/asides/images/disponibilité.png)
 
-## step 03 - The Image
+## step 07 - The Image
 
 Now we are going to retrieve the image of the article.
 

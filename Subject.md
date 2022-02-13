@@ -1,4 +1,4 @@
-# Front-end
+# Subject
 
 Before continuing, make sure you've done all the [installations](https://github.com/paulmondon/Workshop_Scraping/blob/main/Installations.md)
 

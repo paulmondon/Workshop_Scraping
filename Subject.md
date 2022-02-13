@@ -14,9 +14,11 @@ Help yourself with the documentation `https://www.selenium.dev/documentation/`
 
 ## Step 03 - Collect all items
 
-In your `Home.vue` file create a new data equal to [this](https://github.com/paulmondon/Workshop_Scraping/blob/main/asides/images/workshop.png) array.
-Now you need to create a new component `PostItem.vue`that displays posts informations of one object in the array (import this component in `Home.vue`):
-![plot](https://github.com/TristanB12/postApp_workshop/blob/master/asides/images/post.png)
+To scrap all the items informations we first need to collect all of them.
+
+All items are stored in a div. Find the XPATH of this div and use the find_elements function to store them all.
+
+![plot](https://github.com/paulmondon/Workshop_Scraping/blob/main/asides/images/workshop.png)
 
 Check the [v-for](https://vuejs.org/v2/guide/list.html) directive to render each posts.
 

@@ -20,7 +20,7 @@ All items are stored in a div and have a class in common.
 
 Open the console with f12 and find this class it will look like this
 
-![plot](https://github.com/paulmondon/Workshop_Scraping/blob/main/asides/images/class.png)
+![plot](https://github.com/paulmondon/Workshop_Scraping/blob/main/asides/class.png)
 
 
 ## step 03 - Add post

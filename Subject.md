@@ -4,7 +4,7 @@ Before continuing, make sure you've done all the [installations](https://github.
 
 ## Step 01 - Get file
 
-get the `scraping.py` file which contains all the imports you will need
+get the `scraping.py` file which contains all the code you will need to complete
 
 ## Step 02 - Open palace page
 
@@ -22,13 +22,50 @@ All items are stored in a div and have a class in common.
 
 Open the console with f12 and find this class it will look like this
 
-![plot](https://github.com/paulmondon/Workshop_Scraping/blob/main/asides/class.png)
+![plot](https://github.com/paulmondon/Workshop_Scraping/blob/main/asides/images/class.png)
 
+## Step 03 - Collect all items
 
-## step 03 - Add post
-![plot](https://github.com/TristanB12/postApp_workshop/blob/master/asides/images/home_page.png)
+To scrap all the items informations we first need to collect all of them.
 
-In this last step you want to add an *add post* feature: user can write a message and add it in the array of posts.
-In your `Home.vue` create an input and a *add post* button.
-Use what you've learned in this workshop to implement this feature. If you want to add an object in the array, use the following syntax:
-`array.push(object)`.
+All items are stored in a div and have a class in common.
+
+![plot](https://github.com/paulmondon/Workshop_Scraping/blob/main/asides/images/workshop.png)
+
+Open the console with f12 and find this class it will look like this
+
+![plot](https://github.com/paulmondon/Workshop_Scraping/blob/main/asides/images/class.png)
+
+## step 03 - The Availability
+
+Now that we have stored all the articles we want to retrieve the data of these articles.
+
+First of all we want to know if the article is available. For that we will use the button "ADD TO CART" which is only displayed on the available items.
+
+Find the css selector of the button.
+
+![plot](https://github.com/paulmondon/Workshop_Scraping/blob/main/asides/images/add.png)
+
+## step 03 - The Name
+
+Now we are going to retrieve the name of the article.
+
+Find the css selector of the name.
+
+![plot](https://github.com/paulmondon/Workshop_Scraping/blob/main/asides/images/nom.png)
+
+## step 03 - The Price
+
+Now we are going to retrieve the name of the article.
+
+Find the css selector of the name.
+
+![plot](https://github.com/paulmondon/Workshop_Scraping/blob/main/asides/images/disponibilité.png)
+
+## step 03 - The Image
+
+Now we are going to retrieve the image of the article.
+
+Find the css selector of the name.
+
+![plot](https://github.com/paulmondon/Workshop_Scraping/blob/main/asides/images/image.png)

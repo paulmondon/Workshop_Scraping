@@ -1,4 +1,4 @@
-# Installation
+# Installations
 
 In order to achieve the Scraping workshop you should follow these instructions.
 

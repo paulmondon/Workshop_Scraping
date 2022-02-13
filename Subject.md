@@ -16,11 +16,12 @@ Help yourself with the documentation `https://www.selenium.dev/documentation/`
 
 To scrap all the items informations we first need to collect all of them.
 
-All items are stored in a div. Find the XPATH of this div and use the find_elements function to store them all.
+All items are stored in a div and have a class in common.
 
-![plot](https://github.com/paulmondon/Workshop_Scraping/blob/main/asides/images/workshop.png)
+Open the console with f12 and find this class it will look like this
 
-Check the [v-for](https://vuejs.org/v2/guide/list.html) directive to render each posts.
+![plot](https://github.com/paulmondon/Workshop_Scraping/blob/main/asides/images/class.png)
+
 
 ## step 03 - Add post
 ![plot](https://github.com/TristanB12/postApp_workshop/blob/master/asides/images/home_page.png)

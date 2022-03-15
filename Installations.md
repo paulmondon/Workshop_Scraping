@@ -9,7 +9,7 @@ First, you need to have python3, pip, selenium and chromium installed on your co
 - sudo apt update
 - sudo apt install python3.9
 - sudo apt install python3-pip
-- pip install selenium
+- sudo pip install selenium
 - sudo apt install chromium-chromedriver
 
 # Fedora
@@ -17,5 +17,5 @@ First, you need to have python3, pip, selenium and chromium installed on your co
 - sudo dnf update
 - sudo dnf install python3.9
 - sudo dnf install python3-pip
-- pip install selenium
+- sudo pip install selenium
 - sudo dnf install chromium-chromedriver
